@@ -29,7 +29,7 @@ safe-path = { path = "../libs/safe-path" }
 const_format = "0.2.30"
 
 # Async helpers
-async-trait = "0.1.42"
+async-trait = "^0.1.42"
 async-recursion = "0.3.2"
 futures = "0.3.30"
 
@@ -76,7 +76,7 @@ strum = "0.26.2"
 strum_macros = "0.26.2"
 
 # Image pull/decrypt
-image-rs = { git = "https://github.com/confidential-containers/guest-components", rev = "2c5ac6b01aafcb0be3875f5743c77d654a548146", default-features = false, optional = true }
+image-rs = { git = "https://github.com/coco-serverless/guest-components.git", branch = "sc2-main", default-features = false, optional = true }
 
 # Agent Policy
 regorus = { version = "0.1.4", default-features = false, features = [
